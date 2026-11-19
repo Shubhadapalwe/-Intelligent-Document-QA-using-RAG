@@ -59,17 +59,7 @@ Inspect retrieved document passages and similarity scores.
 ![Ollama Model Test](screenshots/ollama-model-test.png)
 
 </details>
-<summary>Development and local model screenshots</summary>
 
-**Streamlit development server**
-
-![Streamlit terminal](screenshots/05-streamlit-server.jpeg)
-
-**Ollama model running locally**
-
-![Ollama terminal](screenshots/06-ollama-model-test.jpeg)
-
-</details>
 
 ## How it works
 
