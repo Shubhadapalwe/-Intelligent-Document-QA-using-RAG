@@ -17,30 +17,48 @@ Upload a text-based PDF, process it into searchable chunks, and ask questions in
 - **Source inspection:** Expand retrieved passages to review supporting text and similarity scores.
 - **Clear fallback:** Can return a not-found response when the supplied context does not support an answer.
 
-## Application screenshots
+## 📸 Application Screenshots
 
 ### 1. Upload a PDF
-![PDF upload interface](screenshots/01-upload-interface.jpeg)
+Upload a PDF document through the Streamlit interface.
 
-### 2. Select a document
-![PDF file selection](screenshots/02-file-selection.jpeg)
+![PDF Upload Interface](screenshots/dashboard.png)
 
-### 3. Process and embed the document
-![Document processing](screenshots/03-document-processing.jpeg)
+### 2. Select a Document
+Choose a PDF file for processing.
 
-### 4. Indexing completed
-The example handbook was indexed into **62 chunks from 19 pages**. This is a sample run, not a benchmark.
-![Indexed document](screenshots/04-indexing-complete.jpeg)
+![PDF File Selection](screenshots/document-upload.png)
 
-### 5. Ask a question and receive a grounded answer
-The app describes the document QA pipeline using retrieved PDF content.
-![Successful answer](screenshots/08-successful-answer.jpeg)
+### 3. Process and Embed the Document
+Extract text, generate embeddings, and prepare the FAISS index.
 
-### 6. Inspect retrieved source passages
-The interface shows the top matching text chunks and similarity scores. This example also demonstrates a **not-found** answer: retrieval does not guarantee a relevant answer for every query.
-![Retrieved passages](screenshots/07-retrieval-example.jpeg)
+![Document Processing](screenshots/document-processing.png)
+
+### 4. Document Indexing Completed
+Successfully processed 19 pages into 62 searchable chunks.
+
+![Document Indexing](screenshots/indexing-success.png)
+
+### 5. AI-Powered Question Answering
+Ask questions and receive document-grounded answers using Llama 3.2.
+
+![Successful Answer](screenshots/question-answer.png)
+
+### 6. Semantic Search and Source Retrieval
+Inspect retrieved document passages and similarity scores.
+
+![Retrieved Sources](screenshots/source-retrieval.png)
 
 <details>
+<summary><b>Development and Local Model Screenshots</b></summary>
+
+### Ollama Server
+![Ollama Server](screenshots/ollama-server.png)
+
+### Local LLM Testing
+![Ollama Model Test](screenshots/ollama-model-test.png)
+
+</details>
 <summary>Development and local model screenshots</summary>
 
 **Streamlit development server**
